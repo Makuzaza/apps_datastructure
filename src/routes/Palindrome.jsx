@@ -43,7 +43,7 @@ function Palindrome() {
       <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet"/>
       <input
       id="textInput"
-      placeholder="Enter text..."
+      placeholder="Write text..."
       onChange={handleInputChange}
       value={inputText}
       />

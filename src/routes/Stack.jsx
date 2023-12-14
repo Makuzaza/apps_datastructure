@@ -24,6 +24,7 @@ function Stack() {
     <div className="app">
       <h1>Stack data structure app</h1>
       <p>It is a linear data structure which follows a particular order - FIFO (First In, First Out)</p>
+      <p>Add each of the numbers in a row by clicking "ADD"</p>
       <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet"/>
       <div className="queue">
         {queue.map((item, index) => (
@@ -37,7 +38,7 @@ function Stack() {
           type="text"
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
-          placeholder="Enter number..."
+          placeholder="Add each number in a row"
         />
         <button onClick={enqueue}>Add</button>
         <button onClick={dequeue}>Delete</button>

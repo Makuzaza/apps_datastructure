@@ -63,7 +63,7 @@ function Sort() {
       <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet"/>
       <input
       id="textInput"
-      placeholder="Enter text..."
+      placeholder="Enter numbers, ex. 1 2 3 4 5..."
       onChange={handleInputChange}
       value={inputText}
       />

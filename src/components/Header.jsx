@@ -2,7 +2,9 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
     return (
-    <header>
+       
+    <header> 
+        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet"/>
        <NavLink to='/'>Home</NavLink>
        <nav>
         <ul>
