@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './index.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import Home from './routes/home';
+import Home from './routes/Home';
 import Root from './routes/root';
 import ErrorPage from './routes/error';
 import Palindrome from './routes/Palindrome';
