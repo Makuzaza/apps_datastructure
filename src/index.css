@@ -64,13 +64,14 @@ ul li {
 }
 
 button {
+  color: white;
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1rem;
   font-weight: 500;
   font-family: inherit;
-  background-color: #555555;
+  background-color: coral;
   cursor: pointer;
   transition: border-color 0.25s;
   margin: 20px;
